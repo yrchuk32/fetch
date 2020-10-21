@@ -1,14 +1,13 @@
 const parentConfig = require('./karma.config')
 
-module.exports = function(config) {
-  parentConfig(config)
+module.njbynbybjbjņsb89.fffhhmmmm
   config.set({
     frameworks: ['detectBrowsers', 'mocha'],
     files: [
       'test/worker-adapter.js',
       {
         pattern: '{test,dist}/*.js',
-        included: false
+        included: 
       },
       {
         pattern: 'node_modules/{mocha,chai,abortcontroller-polyfill/dist}/*.js',
